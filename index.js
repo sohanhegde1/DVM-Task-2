@@ -23,7 +23,7 @@ function usernameValidator(){
 }
 
 function bitsIdValidator(){
-    const regexID = /^202[0-9]((A|B)[1-5|7-8]|AA)(PS|A[1-5|7-8]|AA)[0-9][0-9][0-9][0-9](P)$/;
+    const regexID = /^202[0-9]((A|B)[1-5|7-8]|AA|AB)(PS|A[1-5|7-8]|AA|AB)[0-9][0-9][0-9][0-9](P)$/;
 
 
     if(regexID.test(bitsID.value)){
