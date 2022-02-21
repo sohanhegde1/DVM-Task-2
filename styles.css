@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Montserrat:wght@700&display=swap');
+
+*
+{
+margin: 0%;
+padding: 0%;
+font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+}
+
+body{
+background-color: white;
+}
+
+.header
+{
+background-color:rgb(0,128,255) ;
+height:10vh;
+}
+.mid1
+{
+
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 10px;
+    height:250px;
+
+}
+
+.login{
+    padding: 10px;
+    margin: auto;
+    width: 30%;
+}   
+
+#heading
+{
+vertical-align: middle;
+text-align: center;
+color: white;
+}
+input[type="date"]
+{
+width: 100%;
+box-sizing: border-box;
+font-family: "Roboto mono",monospace;
+background-color:rgb(0,128,255);
+color:white;
+text-align: right;
+border-radius: 3px;
+padding:0 0;
+margin: 5px 0;
+font-size: large;
+}
+::-webkit-calendar-picker-indicator
+{
+background-color: white ;
+}
+input[type="text"]
+{
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    font-family: "Roboto mono",monospace;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0,128,255);
+    font-size: large;
+}
+
+#submit-btn
+{
+background-color:rgb(0,128,255);
+color: white;
+padding: 10px 15px;
+text-align: center;
+border-radius:20px;
+font-size: 16px;
+box-shadow: mediumblue;
+}
+#submit-btn:hover{
+    cursor: pointer;
+}
+
+#clear-btn
+{
+background-color:rgb(0,128,255);
+color: white;
+padding: 10px 15px;
+text-align: center;
+border-radius:20px;
+font-size: 16px;
+box-shadow: mediumblue;
+
+}
+#clear-btn:hover{
+    cursor: pointer;
+}
+
+.mid2
+{
+    display: flex;
+    justify-content:space-around;
+    position: relative;
+    top: 10px;
+    height:250px;
+    background-color: rgb(0,128,255);
+    color: white;
+}
+
+#order-container{
+    padding: 20px;
+    box-shadow: 5px 10px #888888;
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+}

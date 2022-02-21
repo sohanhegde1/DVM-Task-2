@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Log in</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="heading">Login Page</h1>
+    </div>
+    <form class="login">
+        <label for="username">Name:</label>
+        <input type="text" id="username" maxlength="20" required> 
+        
+        <label for="bits-id">BITS ID:</label>
+        <input type="text" id="bits-id" required>
+        <span id="span-bits-id"></span><br>
+
+        <label for="phone-number">Phone Number:</label>
+        <input type="text" id="phone-number" maxlength="10" required>
+        <span id="span-number"></span><br>
+
+        <input type="submit" value="Log In" onclick="loginToVendorManagement()">
+    </form>   
+</body>
+<script src="./index.js"></script>
+<script window.parentPage = true></script>
+</html>

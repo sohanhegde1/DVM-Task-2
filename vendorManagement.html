@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Vendor Management</title>
+</head>
+<body>
+    <div class="header">
+        <h1 id="heading">Vendor Mangement</h1>
+    </div>
+    <form>
+        <div class="mid1">
+            <div class="box1">
+                <div class="date">
+                    <label for="exp-delivery-date">Expected Delivery Date:</label>
+                    <input type="date" id="exp-delivery-date" required> 
+                </div>
+                <div class="input">
+                    <label for="qty-demanded"> Quantity Demanded</label> </br>
+                    <input type="text" id="qty-demanded">
+                </div>
+                <div class="input">
+                    <label for="qty-returned" >Quantity Returned</label>
+                    <input type="text" id="qty-returned">
+                </div>
+            </div>
+            <div class="box2"> 
+                <div class="date">
+                    <label for="received-date">Received Date:</label>
+                    <input type="date" id="received-date"> 
+                </div>
+                <div class="input">
+                    <label for="qty-received" >Quantity Received</label> </br>
+                    <input type="text" id="qty-received">
+                </div>
+                <div class="submit">
+                    <input  type="submit" value="Submit" id="submit-btn">
+                    <input type="reset"  value="Clear"  id="clear-btn">
+                 </div>
+                 
+            </div>
+        </div>
+    </form>   
+
+    <div class="orders" id="order-container">
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
