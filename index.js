@@ -59,7 +59,7 @@ function phoneNumberValidator(){
 
 loginToVendorManagement = function (){
     if(usernameNotEmpty == true && validBitsID == true && validPhoneNumber == true){
-        window.open("http://127.0.0.1:5500/vendorManagement.html");
+        window.open("https://sohanhegde1.github.io/DVM-Task-2/vendorManagement.html");
     }else{
         
     }
